@@ -44,8 +44,16 @@ a.navbar-brand {
     margin-left: -25px;
 }
 
+a.nav-link:hover{
+    color: var(--color-primary);
+}
+
+.last_item{
+    display: none;
+}
+
 .nav-link {
-    color: var(--color-black)!important;
+    color: var(--color-black);
     padding-left: 35px!important;
     padding-right: 35px!important;
 }
