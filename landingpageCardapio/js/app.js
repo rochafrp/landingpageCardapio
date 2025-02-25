@@ -95,9 +95,9 @@ cardapio.templates = {
                     <b>R$ \${preco}</b>
                 </p>
                 <div class="add-carrinho">
-                    <span class="btn-menos" oneclick="cardapio.metodos.diminuirQuantidade('\${id}')"><i class="fa fa-minus"></i></span>
+                    <span class="btn-menos" onclick="cardapio.metodos.diminuirQuantidade('\${id}')"><i class="fa fa-minus"></i></span>
                     <span class="add-numero-itens" id="qntd-\${id}">0</span>
-                    <span class="btn-mais" oneclick="cardapio.metodos.aumentarQuantidade('\${id}')><i class="fa fa-plus"></i></span>
+                    <span class="btn-mais" onclick="cardapio.metodos.aumentarQuantidade('\${id}')><i class="fa fa-plus"></i></span>
                     <span class="btn btn-add"><i class="fa fa-shopping-bag"></i></span>
                 </div>
             </div>
